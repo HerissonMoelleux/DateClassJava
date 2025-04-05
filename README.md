@@ -30,3 +30,17 @@ Key functionalities demonstrated in the `Main` class include:
   int m = month < 3 ? month + 12 : month;
   int y = month < 3 ? year - 1 : year;
   int h = (q + 13*(m + 1)/5 + y%100 + (y%100)/4 + (y/100)/4 + 5*(y/100)) % 7;
+
+## Example Output
+
+Дата сдачи (6/4/2025): true
+Невалидная дата (29/2/2025): false
+Обновление на 28/2/2025: true
+Обновление на 31/4/2025: false
+День недели для 6/4/2025: Sunday
+Разница между 6/4/2025 и 1/1/2026: 270 дней
+
+Отсортированные даты:
+March 10, 2025
+April 6, 2025
+May 15, 2025
